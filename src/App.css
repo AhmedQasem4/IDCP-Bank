@@ -1,0 +1,14 @@
+.flex{
+    display: flex;
+}
+
+.section__padding{
+    padding: 2rem 3rem;
+}
+
+.flex__center{
+    justify-content: center;
+    align-items: center;
+}
+
+

@@ -1,0 +1,81 @@
+/* Here we define global styling */
+
+/* this is Metropolis font in regular format */
+@font-face {
+    font-family: 'Metroplois-regular';
+    src: url('../public/fonts/metropolis.regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* this is Metropolis font in medium format */
+@font-face {
+    font-family: 'Metroplois-medium';
+    src: url('../public/fonts/metropolis.medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+}
+
+/* this is Metropolis font in semi bold format */
+@font-face {
+    font-family: 'Metroplois-semi-bold';
+    src: url('../public/fonts/metropolis.semi-bold.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+}
+
+/* this is Metropolis font in bold format */
+@font-face {
+    font-family: 'Metroplois-bold';
+    src: url('../public/fonts/metropolis.bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+/* this is Metropolis font in extra bold format */
+@font-face {
+    font-family: 'Metroplois-extra-bold';
+    src: url('../public/fonts/metropolis.extra-bold.woff2') format('woff2');
+    font-weight: 800;
+    font-style: normal;
+}
+
+/* global variables for my website */
+:root{
+    --color-primary: #ED017F;
+    --color-black: #000000;
+    --color-body: #676767;
+    --color-heading: #343434;
+
+    --font-regular: 'Metroplois-regular';
+    --font-medium: 'Metroplois-medium';
+    --font-semi-bold: 'Metroplois-semi-bold';
+    --font-Bold: 'Metroplois-bold';
+    --font-extra-bold: 'Metroplois-extra-bold';
+}
+
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+input,
+button{
+    outline: 0;
+    border: 0;
+}

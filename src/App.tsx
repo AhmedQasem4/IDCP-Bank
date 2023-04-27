@@ -23,12 +23,12 @@ import {
 function App() {
   return (
     <>
-      <NavBar />
+      <NavBar  />
       <NavMenu />
       <Hero />
       <CustomerExperience />
       <ValueList />
-      <BusinessParteners />
+      <BusinessParteners /> 
       <About />
       <BankServices />
       <ServiceCard />
