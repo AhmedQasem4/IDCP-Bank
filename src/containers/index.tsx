@@ -1,0 +1,9 @@
+export { default as NavBar } from './NavBar/NavBar';
+export { default as Hero } from './Hero/Hero';
+export { default as CustomerExperience } from './CustomerExperience/CustomerExperience';
+export { default as BusinessParteners } from './BusinessParteners/BusinessParteners';
+export { default as BankServices } from './BankServices/BankServices';
+export { default as About } from './About/About';
+export { default as BankResults } from './BankResults/BankResults';
+export { default as NewsLetter } from './NewsLetter/NewsLetter';
+export { default as Footer } from './Footer/Footer';
