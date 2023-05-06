@@ -23,9 +23,8 @@ import {
 function App() {
   return (
     <>
-      <NavBar  />
-      <NavMenu />
-      <Hero />
+      <NavBar />
+      {/* <Hero />
       <CustomerExperience />
       <ValueList />
       <BusinessParteners /> 
@@ -36,7 +35,7 @@ function App() {
       <YearResults />
       <NewsLetter />
       <Footer />
-      <FooterMenu />
+      <FooterMenu /> */}
     </>
   );
 }

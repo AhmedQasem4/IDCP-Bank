@@ -1,0 +1,18 @@
+.navbar__menu-links{
+    justify-content: space-between;
+    align-items: center;
+    font-size: 2rem;
+    text-transform: uppercase;
+    gap: 1rem;
+}
+
+.navbar__menu-links a{
+    font-family: var(--font-semi-bold);
+    color: var(--color-black);  
+}
+
+.navbar__menu-links a:hover{
+    color: var(--color-primary);
+}
+
+

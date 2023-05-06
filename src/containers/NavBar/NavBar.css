@@ -1,0 +1,23 @@
+.navbar__menu-links_container{
+    flex: .8;
+}
+
+.navbar__menu-icon{
+    display: none;
+}
+
+.navbar__mobile-menu{
+    width: 100vw;
+    height: 100vh;
+}
+@media screen and (max-width: 1150px){
+    .navbar__menu-links{
+        flex-direction: column;
+    }
+    .navbar__menu-links_container{
+        display: none;
+    }
+    .navbar__menu-icon{
+        display: flex;
+    }
+}
