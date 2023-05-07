@@ -1,9 +1,6 @@
 .navbar__menu-links{
-    justify-content: space-between;
-    align-items: center;
     font-size: 2rem;
     text-transform: uppercase;
-    gap: 1rem;
 }
 
 .navbar__menu-links a{

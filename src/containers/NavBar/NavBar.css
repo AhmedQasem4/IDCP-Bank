@@ -1,23 +1,43 @@
-.navbar__menu-links_container{
-    flex: .8;
+.app__navbar{
+    position: relative;
 }
-
-.navbar__menu-icon{
-    display: none;
+.navbar__links_container{
+    flex: .9;
 }
-
 .navbar__mobile-menu{
-    width: 100vw;
-    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #FD746C;
+    z-index: 1;
+}
+.close__icon{
+    position: absolute;
+    top: 25px;
+    right: 25px;
+}
+.navbar__mobile-menu_container{
+    display: none;
 }
 @media screen and (max-width: 1150px){
     .navbar__menu-links{
         flex-direction: column;
+        font-size: 3rem;
     }
-    .navbar__menu-links_container{
+    .navbar__menu-links li{
+        margin-bottom: 2rem;
+    }
+    .navbar__mobile-menu_container{
+        display: flex;
+    }
+    .navbar__links_container{
         display: none;
     }
-    .navbar__menu-icon{
-        display: flex;
+    .navbar__button{
+        position: absolute;
+        top: 30px;
+        right: 70px;
     }
 }
