@@ -44,6 +44,9 @@
     .hero__p{
         font-size: 1.7rem;
     }
+    .hero__image img{
+        margin-top: 3rem;
+    }
 }
 
 @media screen and (max-width: 640px){

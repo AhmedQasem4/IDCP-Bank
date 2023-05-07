@@ -1,0 +1,46 @@
+.app__customer-value_list{
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex-basis: 25%;
+}
+
+.app__customer-value_list img{
+    width: 37px;
+    height: 37px;
+}
+
+.app__customer-value_list h3{
+    margin-bottom: 0;
+    font-size: 2.1rem;
+    font-family: var(--font-Bold);
+}
+
+.valueList__p{
+    width: 50%;
+}
+
+.valueList__p p{
+    font-size: 1.4rem;
+    font-family: var(--font-regular);
+    color: var(--color-body);
+}
+
+@media screen and (max-width: 1150px){
+    .app__customer-value_list{
+        flex-basis: 50%;
+        align-content: center;
+        align-items: center;
+    }
+    .valueList__p p{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 640px){
+    .app__customer-value_list{
+        flex-basis: 50%;
+    }
+    .valueList__p p{
+        font-size: 1.1rem;
+    }
+}

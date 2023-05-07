@@ -1,9 +1,21 @@
-import './ValueList.css';
+import "./ValueList.css";
 
-const ValueList = () => {
-  return (
-    <div>ValueList</div>
-  )
+interface Props {
+  icon: any,
+  head: string,
+  p: string
 }
 
-export default ValueList
+const ValueList = ({icon , head , p}: Props) => {
+  return (
+    <div className="app__customer-value_list flex section__padding">
+      <img src={icon} alt="icon" />
+      <h3>{head}</h3>
+      <div className="valueList__p">
+        <p>{p}</p>
+      </div>
+    </div>
+  );
+};
+
+export default ValueList;

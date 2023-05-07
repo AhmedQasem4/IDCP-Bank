@@ -25,9 +25,8 @@ function App() {
     <>
       <NavBar />
       <Hero />
-      {/* <CustomerExperience />
-      <ValueList />
-      <BusinessParteners /> 
+      <CustomerExperience />
+      {/* <BusinessParteners /> 
       <About />
       <BankServices />
       <ServiceCard />
