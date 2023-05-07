@@ -1,0 +1,56 @@
+.hero__content, .hero__image{
+    width: 50%;
+    height: 100%;
+}
+
+.hero__image img{
+    width: 100%;
+}
+.hero__heading{
+    font-size: 7rem;
+    font-family: var(--font-extra-bold);
+    margin-top: 0;
+}
+
+.hero__p{
+    font-size: 2rem;
+    word-spacing: 2px;
+    margin-bottom: 5rem;
+    color: var(--color-body);
+    font-family: var(--font-regular);
+}
+
+.hero__buttons {
+    display: flex;
+    gap: 2rem;
+}
+
+.hero__buttons button{
+    font-family: var(--font-semi-bold);
+    letter-spacing: 1px;
+    font-size: 1.5rem; 
+}
+
+@media screen and (max-width: 1150px){
+    .app__hero{
+        flex-direction: column;
+    }
+    .hero__content, .hero__image{
+        width: 100%;
+    }
+    .hero__heading{
+        font-size: 5rem;
+    }
+    .hero__p{
+        font-size: 1.7rem;
+    }
+}
+
+@media screen and (max-width: 640px){
+    .hero__p{
+        margin-bottom: 20px;
+    }
+    .hero__heading{
+        font-size: 3rem;
+    }
+}

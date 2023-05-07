@@ -18,8 +18,8 @@
 
 .btn {
     color: #fff;
-    font-size: 2rem;
-    padding: 1rem;
+    font-size: 1.5rem;
+    padding: 1.5rem;
     border-radius: 5px;
     text-transform: uppercase;
     font-family: var(--font-regular);
@@ -29,37 +29,52 @@
     background-color: var(--color-primary);
 }
 
+.btn-secondary{
+    background-color: #fff;
+    color: var(--color-primary);
+    border: 1px solid var(--color-primary);
+}
 @-webkit-keyframes scale-up-tr {
-    0% {
-      -webkit-transform: scale(0.5);
-              transform: scale(0.5);
-      -webkit-transform-origin: 100% 0%;
-              transform-origin: 100% 0%;
-    }
-    100% {
-      -webkit-transform: scale(1);
-              transform: scale(1);
-      -webkit-transform-origin: 100% 0%;
-              transform-origin: 100% 0%;
-    }
+  0% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+    -webkit-transform-origin: 100% 0%;
+            transform-origin: 100% 0%;
   }
-  @keyframes scale-up-tr {
-    0% {
-      -webkit-transform: scale(0.5);
-              transform: scale(0.5);
-      -webkit-transform-origin: 100% 0%;
-              transform-origin: 100% 0%;
-    }
-    100% {
-      -webkit-transform: scale(1);
-              transform: scale(1);
-      -webkit-transform-origin: 100% 0%;
-              transform-origin: 100% 0%;
-    }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-transform-origin: 100% 0%;
+            transform-origin: 100% 0%;
   }
+}
+@keyframes scale-up-tr {
+  0% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+    -webkit-transform-origin: 100% 0%;
+            transform-origin: 100% 0%;
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-transform-origin: 100% 0%;
+            transform-origin: 100% 0%;
+  }
+}
 
 @media screen and (min-width: 1444px){
     .section__padding{
         padding: 4rem 5rem;
+    }
+}
+
+@media screen and (max-width: 640px){
+    .btn{
+        font-size: 1.2rem;
+        padding: 1rem;
+    }
+    .section__padding{
+        padding: 1rem 2rem;
     }
 }

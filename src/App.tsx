@@ -24,8 +24,8 @@ function App() {
   return (
     <>
       <NavBar />
-      {/* <Hero />
-      <CustomerExperience />
+      <Hero />
+      {/* <CustomerExperience />
       <ValueList />
       <BusinessParteners /> 
       <About />

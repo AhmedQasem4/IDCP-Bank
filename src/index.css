@@ -46,11 +46,11 @@
     --color-body: #676767;
     --color-heading: #343434;
 
-    --font-regular: 'Metroplois-regular';
-    --font-medium: 'Metroplois-medium';
-    --font-semi-bold: 'Metroplois-semi-bold';
-    --font-Bold: 'Metroplois-bold';
-    --font-extra-bold: 'Metroplois-extra-bold';
+    --font-regular: 'Metroplois-regular'; /* 400 */
+    --font-medium: 'Metroplois-medium';/* 500 */
+    --font-semi-bold: 'Metroplois-semi-bold'; /* 600 */
+    --font-Bold: 'Metroplois-bold'; /* 700 */
+    --font-extra-bold: 'Metroplois-extra-bold'; /* 800 */
 }
 
 *{
@@ -68,6 +68,7 @@ body {
 
 a{
     text-decoration: none;
+    cursor: pointer;
 }
 
 ul{
@@ -78,4 +79,5 @@ input,
 button{
     outline: 0;
     border: 0;
+    cursor: pointer;
 }
